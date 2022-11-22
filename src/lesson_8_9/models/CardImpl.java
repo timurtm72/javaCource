@@ -1,6 +1,6 @@
-package lesson_8.models;
+package lesson_8_9.models;
 
-import lesson_8.interfaces.Card;
+import lesson_8_9.interfaces.Card;
 
 public class CardImpl implements Card {
     private String nameCard;
