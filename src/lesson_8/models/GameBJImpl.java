@@ -1,6 +1,6 @@
-package lesson_8_9.models;
+package lesson_8.models;
 
-import lesson_8_9.interfaces.GameBJ;
+import lesson_8.interfaces.GameBJ;
 
 public class GameBJImpl implements GameBJ {
     PlayerImpl[] playersInGame = new PlayerImpl[3];

@@ -1,9 +1,8 @@
-package lesson_8_9;
+package lesson_8;
 
-import lesson_8_9.interfaces.GameBJ;
-import lesson_8_9.models.CroupierBJ;
-import lesson_8_9.models.GameBJImpl;
-import lesson_8_9.models.PlayerImpl;
+import lesson_8.models.CroupierBJ;
+import lesson_8.models.GameBJImpl;
+import lesson_8.models.PlayerImpl;
 
 public class Main {
     public static void main(String[] args) {

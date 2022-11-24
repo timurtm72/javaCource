@@ -1,7 +1,7 @@
-package lesson_8_9.models;
+package lesson_8.models;
 
-import lesson_8_9.interfaces.Card;
-import lesson_8_9.interfaces.DeckOfCards;
+import lesson_8.interfaces.Card;
+import lesson_8.interfaces.DeckOfCards;
 import java.util.Random;
 
 public class DeckOfCardsImpl implements DeckOfCards {

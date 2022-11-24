@@ -1,4 +1,4 @@
-package lesson_8_9.models;
+package lesson_8.models;
 
 public class CroupierBJ extends PlayerImpl {
     public CroupierBJ(String gamerName) {
