@@ -32,8 +32,8 @@ public class Task_6 {
             firstValue = maxInd;
         }
 
-        System.out.println("Короткая строка " + strList.get(minInd)  + " ее индекс " + minInd);
-        System.out.println("Длинная строка " + strList.get(maxInd)  + " ее индекс " + maxInd);
+        System.out.println("Короткая строка " + "\'" + strList.get(minInd) + "\'"   + " ее индекс " + minInd);
+        System.out.println("Длинная строка " + "\'" + strList.get(maxInd) + "\'" + " ее индекс " + maxInd);
 
         int count = 0;
         String seachStr = strList.get(firstValue);

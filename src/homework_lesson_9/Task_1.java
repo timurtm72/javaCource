@@ -11,7 +11,8 @@ public class Task_1 {
             System.out.println("Введите строку " + (i + 1));
             strList.add(scanner.nextLine());
         }
-        System.out.println(" Размер списка строк равен " + strList.size());
+        System.out.println();
+        System.out.println("Размер списка строк равен " + strList.size());
         System.out.println();
         int count = 0;
         for (String str : strList) {
