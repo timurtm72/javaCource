@@ -1,4 +1,4 @@
-package lesson_9_10.tern_operator;
+package lesson_9.tern_operator;
 
 public class Main {
     public static void main(String[] args) {

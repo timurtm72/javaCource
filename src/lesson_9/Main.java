@@ -1,6 +1,4 @@
-package lesson_9_10;
-
-import lesson_8.models.CardImpl;
+package lesson_9;
 
 import java.util.*;
 
@@ -114,7 +112,12 @@ public class Main {
 //            System.out.println(iter.next());
 //        }
 
-        TreeSet<Integer> treeSet = new TreeSet<>(new ReverseIntegers());
+        TreeSet<Integer> treeSet = new TreeSet<>(new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return o2 - o1;
+            }
+        });
         treeSet.add(20);
         treeSet.add(30);
         treeSet.add(15);

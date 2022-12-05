@@ -1,8 +1,8 @@
-package lesson_9_10.hash_code;
+package lesson_9.hash_code;
 
 import java.util.Objects;
 
-public class Coin {
+public class Coin implements Comparable<Coin>{
     private int nominal;
     private double diameter;
     private String country;
@@ -78,5 +78,20 @@ public class Coin {
         result = 31 * result + (country != null ? country.hashCode() : 0);
         result = 31 * result + year;
         return result;
+    }
+
+    @Override
+    public int compareTo(Coin o) {
+        if(this.getYear() != o.getYear()){
+            return this.getYear() - o.getYear();
+        }
+        if(this.getNominal() != o.getNominal()){
+            return this.getNominal() - o.getNominal();
+        }
+        if(this.getDiameter() != o.getDiameter()){
+            return Double.compare(this.getDiameter() ,o.getDiameter());
+        }
+        return this.getCountry().compareTo(o.getCountry());
+
     }
 }

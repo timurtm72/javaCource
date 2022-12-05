@@ -1,6 +1,6 @@
-package lesson_9_10.hash_code;
+package lesson_9.hash_code;
 
-import java.util.HashSet;
+import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,17 +25,14 @@ public class Main {
         Coin coin4 = new Coin(20,18.5,"France",1999);
         Coin coin5 = new Coin(10,20.5,"Russia",1994);
 
-        HashSet<Coin> coinCollection = new HashSet<>();
+        TreeSet<Coin> coinCollection = new TreeSet<>();
         coinCollection.add(coin1);
         coinCollection.add(coin2);
         coinCollection.add(coin3);
         coinCollection.add(coin4);
         coinCollection.add(coin5);
-        //System.out.println(coinCollection);
         for(Coin c: coinCollection){
             System.out.println(c);
         }
-
-
     }
 }
