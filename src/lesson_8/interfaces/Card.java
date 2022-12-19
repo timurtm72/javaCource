@@ -1,4 +1,4 @@
-package lesson_8_9.interfaces;
+package lesson_8.interfaces;
 
 public interface Card {
     void printCard();// Печать карты

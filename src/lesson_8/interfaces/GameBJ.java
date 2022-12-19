@@ -1,7 +1,6 @@
-package lesson_8_9.interfaces;
+package lesson_8.interfaces;
 
-import lesson_8_9.models.GameBJImpl;
-import lesson_8_9.models.PlayerImpl;
+import lesson_8.models.PlayerImpl;
 
 public interface GameBJ {
     void addPlayerInGame(PlayerImpl player);// Добавить игрока в игру.

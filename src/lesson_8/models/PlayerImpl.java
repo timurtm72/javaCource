@@ -1,7 +1,7 @@
-package lesson_8_9.models;
+package lesson_8.models;
 
-import lesson_8_9.interfaces.Card;
-import lesson_8_9.interfaces.Player;
+import lesson_8.interfaces.Card;
+import lesson_8.interfaces.Player;
 
 import java.util.Scanner;
 
