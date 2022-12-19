@@ -20,7 +20,7 @@ public class Task_4 {
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
-        if (str != null || !str.isEmpty()) {
+        if (str != null && !str.isEmpty()) {
             try (StringReader stringReader = new StringReader(str)) {
                 int ch = 0;
                 String isVowelStr = null;
@@ -42,6 +42,8 @@ public class Task_4 {
             System.out.println();
             System.out.println("Гласные -> " + vowelCharBuffer);
             System.out.println("Согласные и остальные -> " + consonantCharBuffer);
+        }else{
+            System.out.println("Строка пустая...");
         }
     }
 

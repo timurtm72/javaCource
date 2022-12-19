@@ -11,11 +11,11 @@ public class Task_2 {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         Map<String, Integer> map = new HashMap<>();
         String key = null;
-        Integer value = null;
+        Integer value = 0;
         while (true) {
             try {
                 System.out.println("Введите число...");
-                value = Integer.valueOf(reader.readLine());
+                value = Integer.valueOf(reader.readLine().trim());
                 System.out.println();
                 System.out.println("Введите строку...");
                 key = reader.readLine();

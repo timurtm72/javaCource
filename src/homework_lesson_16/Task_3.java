@@ -11,7 +11,7 @@ public class Task_3 {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         for (int i = 0; i < 30; i++) {
             System.out.println("Введите " + (i + 1) + " число...");
-            Integer value = null;
+            Integer value = 0;
             try {
                 value = Integer.valueOf(reader.readLine());
             } catch (IOException e) {
