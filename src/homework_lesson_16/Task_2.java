@@ -20,7 +20,7 @@ public class Task_2 {
                 System.out.println("Введите строку...");
                 key = reader.readLine();
             } catch (IOException e) {
-                throw new RuntimeException(e);
+                System.out.println(e.getMessage());
             }
             if (key.isEmpty()) {
                 break;
